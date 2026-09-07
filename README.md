@@ -8,10 +8,10 @@ It is intended for consoles that fail to enter PS2 mode with an error such as: "
 
 The test runs before normal PS2 initialization and prints its results through the EEGS UART. It tests the complete 32 MB RDRAM address space is tested using four patterns:
 
-00000000
-FFFFFFFF
-AAAAAAAA
-55555555
+00000000<br>
+FFFFFFFF<br>
+AAAAAAAA<br>
+55555555<br>
 
 Each pattern is written across the memory and then read back in a separate pass. This helps detect stuck bits, address-related faults and memory locations that do not retain the written value. The ranges are logical 4 MB address windows across the 32 MB memory space. They are not physical data lanes.
 
@@ -22,32 +22,32 @@ Channel B	- IC7003
 
 Example result:
 
-testing Channel A
-Channel A fail rate=0.00%
-Channel A: OK
-testing Channel B
-Channel B fail rate=8.35%
-Channel B: FAIL
-failed to initialize memory: InitRDRAM returned -9
+testing Channel A<br>
+Channel A fail rate=0.00%<br>
+Channel A: OK<br>
+testing Channel B<br>
+Channel B fail rate=8.35%<br>
+Channel B: FAIL<br>
+failed to initialize memory: InitRDRAM returned -9<br>
 
 A failed channel does not always mean that the RDRAM chip itself is defective. The failure may also be caused by bad solder joints, damaged traces, unstable power, missing signals or a fault in the memory controller.
 
 Requirements:
 
--A backward-compatible PS3 with PS2 hardware
--CFW or a suitable development environment
--devblind or similar tool to enable writing to dev folder
--EEGS Uart
--A compatible ps2_emu.self
+-A backward-compatible PS3 with PS2 hardware<br>
+-CFW or a suitable development environment<br>
+-devblind or similar tool to enable writing to dev folder<br>
+-EEGS Uart<br>
+-A compatible ps2_emu.self<br>
 
 Installation:
 
--Before doing anything, solder EEGS Uart according to the pictures.
--Run devblind and enable it.
--Go to devblind folder through Irisman or any other file manager, locate ps2emu folder and replace ps2_emu.self file.
--Optionally restart the system.
--Open Serial terminal using program such as Putty, use 38400 baud.
--Run a ps2 game and it should print if your memory is 
+-Before doing anything, solder EEGS Uart according to the pictures.<br>
+-Run devblind and enable it.<br>
+-Go to devblind folder through Irisman or any other file manager, locate ps2emu folder and replace ps2_emu.self file.<br>
+-Optionally restart the system.<br>
+-Open Serial terminal using program such as Putty, use 38400 baud.<br>
+-Run a ps2 game and it should print if your memory is Ok or not. <br>
 
 Credits:
 
