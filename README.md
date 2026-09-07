@@ -6,7 +6,7 @@ It is intended for consoles that fail to enter PS2 mode with an error such as: "
 
 *You can also check some of the return codes through the link here (made by Kozarovv): https://www.psdevwiki.com/ps3/index.php?title=User_talk:Kozarovv&curid=9418&diff=78129&oldid=78114
 
-The test runs before normal PS2 initialization and prints its results through the EEGS UART. It tests the complete 32 MB RDRAM. Address space is tested using four patterns:
+The test runs before normal PS2 initialization and prints its results through the EEGS UART. Address space is tested using four patterns:
 
 00000000<br>
 FFFFFFFF<br>
