@@ -51,7 +51,7 @@ Installation:
 
 Credits:
 
-Original RDRAM testing logic by krat0s.
+Original RDRAM testing logic by krat0s - https://www.psx-place.com/resources/ps2-rdram-test-by-krat0s.899/
 
 PS3 integration, channel/range diagnostics and UART output by Calyps0/Chatgpt.
 
