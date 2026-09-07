@@ -4,7 +4,7 @@ An experimental diagnostic tool for testing the 32 MB of PS2 RDRAM in early back
 
 It is intended for consoles that fail to enter PS2 mode with an error such as: "failed to initialize memory: InitRDRAM returned -X". 
 
-*You can also check some of the return codes through the link here: https://www.psdevwiki.com/ps3/index.php?title=User_talk:Kozarovv&curid=9418&diff=78129&oldid=78114
+*You can also check some of the return codes through the link here (made by Kozarovv): https://www.psdevwiki.com/ps3/index.php?title=User_talk:Kozarovv&curid=9418&diff=78129&oldid=78114
 
 The test runs before normal PS2 initialization and prints its results through the EEGS UART. It tests the complete 32 MB RDRAM address space is tested using four patterns:
 
