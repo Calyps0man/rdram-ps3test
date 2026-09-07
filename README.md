@@ -34,7 +34,7 @@ A failed channel does not always mean that the RDRAM chip itself is defective. T
 
 Requirements:
 
--A backward-compatible PS3 with PS2 hardware (CECHA or CECHB models ONLY)<br>
+-A backward-compatible PS3 with nops2 fault (CECHA or CECHB models ONLY)<br>
 -CFW or a suitable development environment<br>
 -Devblind or similar tool to enable writing to dev folder<br>
 -EEGS UART Adapter (same as for Syscon)<br>
@@ -46,7 +46,7 @@ Installation:
 -Go to devblind folder through Irisman or any other file manager, locate ps2emu folder and replace ps2_emu.self file.<br>
 -Optionally restart the system.<br>
 -Open Serial terminal using program such as Putty, use 38400 baud.<br>
--Run a ps2 game and it should print if your memory is Ok or not. <br>
+-Run a ps2 game and wait a little bit for the test results to show up. <br>
 
 Credits:
 
