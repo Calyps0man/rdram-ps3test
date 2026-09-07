@@ -20,14 +20,13 @@ Channel B	- IC7003
 
 Example result:
 
-# testing Channel A
-# Channel A fail rate=0.00%
-# Channel A: OK
-# testing Channel B
-# Channel B fail rate=8.35%
-# Channel B: FAIL
-# RDRAM test finished
-# failed to initialize memory: InitRDRAM returned -9
+testing Channel A
+Channel A fail rate=0.00%
+Channel A: OK
+testing Channel B
+Channel B fail rate=8.35%
+Channel B: FAIL
+failed to initialize memory: InitRDRAM returned -9
 
 A failed channel does not always mean that the RDRAM chip itself is defective. The failure may also be caused by bad solder joints, damaged traces, unstable power, missing signals or a fault in the memory controller.
 
