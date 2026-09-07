@@ -2,7 +2,7 @@ PS3 PS2 RDRAM Test Tool  ver 0.1
 
 An experimental diagnostic tool for testing the 32 MB of PS2 RDRAM in early backward-compatible PlayStation 3 consoles (CECHA/B). 
 
-It is intended for consoles that fail to enter PS2 mode with an error such as: "failed to initialize memory: InitRDRAM returned -X". 
+It is intended for consoles with "nops2" fault where EEGS UART displays an error such as: "failed to initialize memory: InitRDRAM returned -X". 
 
 *You can also check some of the return codes through the link here (made by Kozarovv): https://www.psdevwiki.com/ps3/index.php?title=User_talk:Kozarovv&curid=9418&diff=78129&oldid=78114
 
