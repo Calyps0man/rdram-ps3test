@@ -36,9 +36,8 @@ Requirements:
 
 -A backward-compatible PS3 with PS2 hardware (CECHA or CECHB models ONLY)<br>
 -CFW or a suitable development environment<br>
--devblind or similar tool to enable writing to dev folder<br>
+-Devblind or similar tool to enable writing to dev folder<br>
 -EEGS UART Adapter (same as for Syscon)<br>
--A compatible ps2_emu.self<br>
 
 Installation:
 
