@@ -15,10 +15,10 @@ AAAAAAAA<br>
 
 Each pattern is written across the memory and then read back in a separate pass. This helps detect stuck bits, address-related faults and memory locations that do not retain the written value. The ranges are logical 4 MB address windows across the 32 MB memory space. They are not physical data lanes.
 
-On COK-001 motherboards, the channels should correspond to (Not 100% confirmed)
+On COK-001 motherboards, the channels should correspond to (Not 100% confirmed):
 
-Channel A	- IC7002,
-Channel B	- IC7003
+Channel A	- IC7002<br>
+Channel B	- IC7003<br>
 
 Example result:
 
