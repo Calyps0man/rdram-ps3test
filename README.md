@@ -17,7 +17,7 @@ Each pattern is written across the memory and then read back in a separate pass.
 
 On COK-001 motherboards, the channels should correspond to (Not 100% confirmed)
 
-Channel A	- IC7002
+Channel A	- IC7002,
 Channel B	- IC7003
 
 Example result:
