@@ -37,12 +37,12 @@ Requirements:
 -A backward-compatible PS3 with PS2 hardware (CECHA or CECHB models ONLY)<br>
 -CFW or a suitable development environment<br>
 -devblind or similar tool to enable writing to dev folder<br>
--EEGS UART<br>
+-EEGS UART Adapter (same as for Syscon)<br>
 -A compatible ps2_emu.self<br>
 
 Installation:
 
--Before doing anything, solder EEGS Uart according to the pictures.<br>
+-Before doing anything, solder your UART adapter according to the pictures.<br>
 -Run devblind and enable it.<br>
 -Go to devblind folder through Irisman or any other file manager, locate ps2emu folder and replace ps2_emu.self file.<br>
 -Optionally restart the system.<br>
