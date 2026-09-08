@@ -6,14 +6,7 @@ It is intended for consoles with "nops2" fault where EEGS UART displays an error
 
 *You can also check some of the return codes through the link here (made by Kozarovv): https://www.psdevwiki.com/ps3/index.php?title=User_talk:Kozarovv&curid=9418&diff=78129&oldid=78114
 
-The test runs before normal PS2 initialization and prints its results through the EEGS UART. Address space is tested using four patterns:
-
-00000000<br>
-FFFFFFFF<br>
-AAAAAAAA<br>
-55555555<br>
-
-Each pattern is written across the memory and then read back in a separate pass. This helps detect stuck bits, address-related faults and memory locations that do not retain the written value. The ranges are logical 4 MB address windows across the 32 MB memory space. They are not physical data lanes.
+The RDRAM test framework is adapted from krat0s’ tester. The current diagnostic build adds a full-memory write/read test using fixed patterns and reports results by Channel A/B and Range 0–7. Each pattern is written across the memory and then read back in a separate pass. This helps detect stuck bits, address-related faults and memory locations that do not retain the written value. The ranges are logical 4 MB address windows across the 32 MB memory space. They are not physical data lanes.
 
 On COK-001 motherboards, the channels should correspond to (Not 100% confirmed):
 
