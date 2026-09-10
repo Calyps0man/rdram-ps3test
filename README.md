@@ -1,4 +1,4 @@
-PS3 PS2 RDRAM Test Tool  ver 0.1
+PS3 PS2 RDRAM Test Tool ver 0.1
 
 An experimental diagnostic tool for testing the 32 MB of PS2 RDRAM in early backward-compatible PlayStation 3 consoles (CECHA/B). 
 
@@ -43,6 +43,7 @@ Installation:
 
 Credits:
 
+The base ps2emu version is taken from here - https://www.psx-place.com/resources/release-ps2_emu-gxemu-and-netemu-modded-by-kozarovv-fan-control-cell-rsx-temps-fps-indicator.1680/
 Original RDRAM testing logic by krat0s - https://www.psx-place.com/resources/ps2-rdram-test-by-krat0s.899/
 
 PS3 integration, channel/range diagnostics and UART output by Calyps0/Chatgpt.
