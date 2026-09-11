@@ -39,7 +39,7 @@ Installation:
 -Open Serial terminal using program such as Putty, use 38400 baud.<br>
 -Run a ps2 game and wait a little bit for the test results to show up. <br>
 
-![EEGS UART]()
+![EEGS UART](UART_All_(COK-00x)jpg)
 
 After repair:
 
