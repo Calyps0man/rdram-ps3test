@@ -53,4 +53,4 @@ PS3 integration, channel/range diagnostics and UART output by Calyps0/Chatgpt.
 
 **Disclaimer:**
 
-This is an experimental repair and research tool. Use it at your own risk.
+THIS IS AN EXPERIMENTAL REPAIR AND RESEARCH TOOL. USE AT YOUR OWN RISK.**
