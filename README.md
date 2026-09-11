@@ -51,8 +51,10 @@ The base ps2emu version is taken from here - https://www.psx-place.com/resources
 
 Original RDRAM testing logic by krat0s - https://www.psx-place.com/resources/ps2-rdram-test-by-krat0s.899/
 
-PS3 integration, channel/range diagnostics and UART output by Calyps0/Chatgpt.
+PS3 integration, channel/range diagnostics and UART output by Calyps0/ChatGPT. 
 
 **Disclaimer:**
 
-THIS IS AN EXPERIMENTAL REPAIR AND RESEARCH TOOL. USE AT YOUR OWN RISK.**
+**IT IS MADE BY AI, HOWEVER IT HAS BEEN REVISED NUMEROUS TIMES UNTIL FUNCTIONALY WAS PROVEN TO BE WORKING CORRECTLY.**
+
+**THIS IS AN EXPERIMENTAL REPAIR AND RESEARCH TOOL. USE AT YOUR OWN RISK.**
