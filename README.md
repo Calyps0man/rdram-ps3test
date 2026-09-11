@@ -26,7 +26,7 @@ A failed channel does not always mean that the RDRAM chip itself is defective. T
 Requirements:
 
 -A backward-compatible PS3 with nops2 fault (CECHA or CECHB models ONLY)<br>
--CFW or a suitable development environment<br>
+-CFW or a suitable development environment<br> **!!! TESTED ON EVILNAT CFW 4.93 !!!**
 -Devblind or similar tool to enable writing to dev folder<br>
 -EEGS UART Adapter (same as for Syscon)<br>
 
