@@ -32,12 +32,14 @@ Requirements:
 
 Installation:
 
--Before doing anything, solder your UART adapter according to the pictures.<br>
+-Before doing anything, solder your UART adapter according to the picture.<br>
 -Run devblind and enable it.<br>
 -Go to devblind folder through Irisman or any other file manager, locate ps2emu folder and replace ps2_emu.self file.<br>
 -Optionally restart the system.<br>
 -Open Serial terminal using program such as Putty, use 38400 baud.<br>
 -Run a ps2 game and wait a little bit for the test results to show up. <br>
+
+![EEGS UART]()
 
 After repair:
 
