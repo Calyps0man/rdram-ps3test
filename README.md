@@ -28,7 +28,7 @@ Requirements:
 -A backward-compatible PS3 with nops2 fault (CECHA or CECHB models ONLY)<br>
 -CFW or a suitable development environment **!!! TESTED ON EVILNAT CFW 4.93 !!!**<br>
 -Devblind or similar tool to enable writing to dev folder<br>
--EEGS UART Adapter (same as for Syscon)<br>
+-EEGS UART Adapter (Same type that is used for Syscon)<br>
 
 Installation:
 
