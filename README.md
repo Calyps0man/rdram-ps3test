@@ -47,8 +47,6 @@ After repair:
 
 Credits:
 
-The base ps2emu version is taken from here - https://www.psx-place.com/resources/release-ps2_emu-gxemu-and-netemu-modded-by-kozarovv-fan-control-cell-rsx-temps-fps-indicator.1680/<br>
-
 Original RDRAM testing logic by krat0s - https://www.psx-place.com/resources/ps2-rdram-test-by-krat0s.899/
 
 PS3 integration, channel/range diagnostics and UART output by Calyps0/ChatGPT. 
