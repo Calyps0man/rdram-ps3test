@@ -1,4 +1,4 @@
-PS3 PS2 RDRAM Test Tool ver 0.1
+PS3 PS2 RDRAM UART Test Tool ver 0.1
 
 An experimental diagnostic tool for testing the 32 MB of PS2 RDRAM in early backward-compatible CECHA/B PlayStation 3 consoles (i.e. only COK-001 motherboards). 
 
